@@ -1,5 +1,4 @@
 return {
-  plugins = {
     {
       "rebelot/heirline.nvim",
       opts = function(_, opts)
@@ -24,5 +23,4 @@ return {
         return opts
       end,
     },
-  }
 }
