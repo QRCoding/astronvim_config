@@ -7,5 +7,6 @@ return {
       ["<leader>xl"] = { function() require("trouble").toggle("loclist") end, desc = "Loclist"},
       ["gR"]         = { function() require("trouble").toggle("lsp_references") end, desc = "LSP References"},
       ["<leader>la"] = { function() vim.lsp.buf.code_action() end, desc = "Code Actions"},
+      ["K"]          = { function() vim.lsp.buf.hover() end, desc = "Hover"},
     },
 }
