@@ -24,6 +24,9 @@ return {
                 signature = {
                     enabled = false
                 },
+                message = {
+                    enabled = false,
+                }
             },
             -- you can enable a preset for easier configuration
             presets = {
