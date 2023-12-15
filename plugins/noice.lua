@@ -24,7 +24,7 @@ return {
                 signature = {
                     enabled = false
                 },
-                message = {
+                progress = {
                     enabled = false,
                 }
             },
