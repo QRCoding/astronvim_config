@@ -6,6 +6,9 @@ return {
                     plugin = {
                         ["codeRange"] = {
                             globalOn = false
+                        },
+                        ['stan'] = {
+                            globalOn = false
                         }
                     }
                 }
